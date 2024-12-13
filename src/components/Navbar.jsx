@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -24,22 +24,16 @@ const Navbar = () => {
               href="/"
               className="hover:text-blue-400 transition duration-300"
             >
-              Home
-            </Link>
-            <Link
-              href="/services"
-              className="hover:text-blue-400 transition duration-300"
-            >
               Services
             </Link>
             <Link
-              href="/about"
+              href="/"
               className="hover:text-blue-400 transition duration-300"
             >
               About Us
             </Link>
             <Link
-              href="/contact"
+              href="/"
               className="hover:text-blue-400 transition duration-300"
             >
               Contact

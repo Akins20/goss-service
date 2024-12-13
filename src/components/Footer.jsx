@@ -19,10 +19,10 @@ const Footer = () => (
         <div>
           <h4 className="text-lg font-bold mb-4">Quick Links</h4>
           <div className="space-y-2">
-            <Link href="/services" className="hover:text-gray-300 block">
+            <Link href="/" className="hover:text-gray-300 block">
               Services
             </Link>
-            <Link href="/contact" className="hover:text-gray-300 block">
+            <Link href="/" className="hover:text-gray-300 block">
               Contact Us
             </Link>
           </div>
@@ -42,7 +42,7 @@ const Footer = () => (
             </div>
             <p className="flex items-center gap-2">
               <FaEnvelope className="text-red-500" />
-              <span>ogunbiyomi@yahoo.com</span>
+              <span>trepglobal.63@gmail.com</span>
             </p>
             <div className="flex space-x-4 mt-4">
               <a
@@ -54,7 +54,7 @@ const Footer = () => (
                 <FaLinkedin size={20} />
               </a>
               <a
-                href="https://wa.me/2349076353678"
+                href="https://wa.me/2347031845534"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-500 hover:text-green-700"

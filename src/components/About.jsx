@@ -6,9 +6,9 @@ const About = () => {
       </h1>
       <p className="text-lg leading-relaxed text-gray-700 mb-6">
         At the forefront of the machinery industry, we specialize in GOSS
-        machinery and other smaller mechanical systems. Our team ensures
-        top-tier engineering solutions with an emphasis on precision,
-        reliability, and client satisfaction.
+        machinery and other similar industrial web offset and sheet fed printing
+        machinery. Our team ensures top-tier engineering solutions with an
+        emphasis on precision, reliability, and client satisfaction.
       </p>
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         <div>
@@ -37,9 +37,10 @@ const About = () => {
           Why Choose Us
         </h2>
         <p className="text-center text-lg text-gray-800 mb-6">
-          Our extensive experience with GOSS machinery and smaller systems
-          ensures precision, reliability, and efficiency. Trust our team to
-          deliver exceptional results every time.
+          Our extensive experience with GOSS machinery, similar industrial
+          web offset and sheet fed printing machinery ensures precision,
+          reliability, and efficiency. Trust our team to deliver exceptional
+          results every time.
         </p>
         <div className="flex justify-center">
           <button className="bg-blue-700 text-white py-3 px-6 rounded-md hover:bg-blue-600">
