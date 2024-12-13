@@ -1,41 +1,56 @@
-"use client"
+"use client";
 
 /* eslint-disable react/no-unescaped-entities */
 import ContactForm from "./ContactForm";
+import { FaPhoneAlt, FaEnvelope, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="px-6 py-12 max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold text-center mb-8">Contact Us</h1>
-      <p className="text-lg text-center mb-4">
-        We'd love to hear from you! Reach out to us via the form below, or
-        connect with us on your preferred platform.
+    <div className="px-6 py-16 max-w-5xl mx-auto bg-gray-50 rounded-lg shadow-lg">
+      {/* Header Section */}
+      <h1 className="text-5xl font-extrabold text-center text-blue-800 mb-10">
+        Get in Touch
+      </h1>
+      <p className="text-lg text-center text-gray-700 mb-8">
+        We'd love to hear from you! Reach out to us via the form below or
+        connect with us on your preferred platform. Let's start the conversation
+        today.
       </p>
 
-      <ContactForm />
+      {/* Contact Form */}
+      <div className="bg-white p-6 rounded-lg shadow-md mb-10">
+        <ContactForm />
+      </div>
 
-      <div className="mt-8 text-center space-y-2">
-        <p className="text-lg">📞 Phone: +123-456-7890</p>
-        <p className="text-lg">📧 Email: ogunbiyomi@gmail.com</p>
-        <div className="flex justify-center space-x-4 mt-4">
+      {/* <div className="text-center mt-8">
+        <p className="text-lg flex items-center justify-center gap-2 mb-4">
+          <FaPhoneAlt className="text-blue-600" />
+          <span>+123-456-7890</span>
+        </p>
+        <p className="text-lg flex items-center justify-center gap-2 mb-4">
+          <FaEnvelope className="text-red-600" />
+          <span>ogunbiyomi@gmail.com</span>
+        </p>
+
+        <div className="flex justify-center space-x-6 mt-6">
           <a
             href="https://www.linkedin.com/in/engineer"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:text-blue-700"
+            className="text-blue-500 hover:text-blue-700 flex items-center gap-2"
           >
-            LinkedIn
+            <FaLinkedin /> LinkedIn
           </a>
           <a
             href="https://wa.me/1234567890"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-green-500 hover:text-green-700"
+            className="text-green-500 hover:text-green-700 flex items-center gap-2"
           >
-            WhatsApp
+            <FaWhatsapp /> WhatsApp
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
